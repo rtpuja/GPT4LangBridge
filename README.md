@@ -16,13 +16,14 @@ This proof-of-concept shows how to connect to your Azure deployment and use GPT-
 ## 📦 How to Run
 
 1. Install dependencies:
+```bash
 pip install openai
 
-Set environment variable or update script:
-export AZURE_OPENAI_KEY="your-api-key"
+2. Set environment variable or update script:
+   export AZURE_OPENAI_KEY="your-api-key"
 
-Run the script:
-python3 translate.py
+3. Run the script:
+   python3 translate.py
 
 ✅ Example
 Input: "How are you today?"
